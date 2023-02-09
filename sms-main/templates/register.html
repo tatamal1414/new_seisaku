@@ -8,15 +8,20 @@
   <link rel="stylesheet" href="/static/register.css">
 </head>
 <body>
-  <div class="content2">
-    <!-- <a onclick="history.back()" class="submit">戻る</a> -->
+  <header>
+    <a href="home" class="thumbnail"><img src="/static/home_img/homeicon2.png"></a>
+    <h2>新規講師登録</h2>
     <a href="/logout" class="submit">ログアウト</a>
-  </div>
+  </header>
+  <!-- <div class="content2">
+    <a onclick="history.back()" class="submit">戻る</a>
+    <a href="/logout" class="submit">ログアウト</a>
+  </div> -->
   <div class="container">
-  <div class="headline">
+  <!-- <div class="headline">
     <h1>新規講師登録</h1>
-  </div>
-  <p>{{ params.msg }}</p>
+  </div> -->
+  <!-- <p>{{ params.msg }}</p> -->
   <!-- <a onclick="history.back()" class="">戻る</a> -->
   
   <form action="/register" method="POST" name="register">
@@ -62,9 +67,9 @@
         <input type="submit" value="送信する">
       </div>
     </form> -->
-  <a href="home" class="homeicon">
+  <!-- <a href="home" class="homeicon">
     <img src="../static/home_img/home.png" alt="home">
-  </a>
+  </a> -->
 </div>
 </body>
 </html>

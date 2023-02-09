@@ -1,3 +1,6 @@
+*{
+  margin: auto;
+}
 a{
     text-decoration: none;
     color: #000000;
@@ -34,13 +37,55 @@ a:hover{
 	margin-left: 20px;
 }
 
+header{
+  padding-left: 12px;
+  padding-right: 15px;
+  background-color: #b9d9ff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  line-height: 100px;
+}
+h2{
+  /* padding-top: 9px; */
+  display: contents;
+}
+img{
+  /* width: 15px;
+  object-fit: contain; */
+}
+a{
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  /* line-height: 100px; */
+}
+.submit{
+  /* margin-top: 10px; */
+  font-size: 25px;
+  padding-right: 26px;
+  
+}
+.thumbnail{
+  /* padding-top: 10px; */
+  width: 100px;
+  
+}
+img{
+  padding-top: 22px;
+  width: 250px;
+  /* margin: auto; */
+
+}
 
 
 
 /* LINE006 */
 .button_line006  {
     position: relative;
-    display: flex;
+    display: block;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
@@ -106,12 +151,16 @@ h1{
     font-size: 25px;
 }
 
+a{
+  display: block;
+}
 
 
-img{
+
+/* img{
   width: 8%;
   margin: auto;
-}
+} */
 
 .homeicon{
   display: flex;

@@ -8,14 +8,19 @@
   <link href="/static/attendance_check.css" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
-        <!-- <a onclick="history.back()" class="submit">戻る</a> -->
+    <header>
+        <a href="home" class="thumbnail"><img src="/static/home_img/homeicon2.png"></a>
+        <h2>{{params.subject}}の出欠確認</h2>
         <a href="/logout" class="submit">ログアウト</a>
-    </div>
+    </header>
+    <!-- <div class="content">
+        <a onclick="history.back()" class="submit">戻る</a>
+        <a href="/logout" class="submit">ログアウト</a>
+    </div> -->
     <div class="container">
-        <header>
+        <!-- <header>
             <h1 class="headline">{{params.subject}}の出欠確認</h1>
-        </header>
+        </header> -->
 
 
         <form action="/attendance_check" method="POST" name="attendance_check">
@@ -81,9 +86,9 @@
             <a href="javascript:attendance_check.submit()" class="bn3637 bn36">送信</a>
         </form>
     
-    <a href="home" class="homeicon">
+    <!-- <a href="home" class="homeicon">
         <img src="../static/home_img/home.png" alt="home">
-    </a>
+    </a> -->
     </div>
 </body>
 </html>

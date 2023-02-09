@@ -9,14 +9,19 @@
   <link href="/static/subject_select.css" rel="stylesheet">
 </head>
 <body>
-  <div class="log">
-    <!-- <a onclick="history.back()" class="submit">戻る</a> -->
+  <header>
+    <a href="home" class="thumbnail"><img src="/static/home_img/homeicon2.png"></a>
+    <h2>授業選択</h2>
     <a href="/logout" class="submit">ログアウト</a>
-  </div>
+</header>
+  <!-- <div class="log">
+    <a onclick="history.back()" class="submit">戻る</a>
+    <a href="/logout" class="submit">ログアウト</a>
+  </div> -->
   <div class="whole">
-  <div class="headline">
+  <!-- <div class="headline">
     <h1>授業選択</h1>
-  </div>
+  </div> -->
   <div class="content">
     {% if params.subject_list | length == 1 %}
     {% for subject in params.subject_list %}
@@ -34,9 +39,9 @@
     {% endfor %}
     {% endif %}
   </div>
-  <a href="/home" class="homeicon">
+  <!-- <a href="/home" class="homeicon">
     <img src="../static/home_img/home.png" alt="home">
-  </a>
+  </a> -->
 </div>
 </body>
 </html>

@@ -201,12 +201,57 @@ p i{
 
 
 
+header{
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #b9d9ff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    line-height: 100px;
+  }
+  h2{
+    /* padding-top: 9px; */
+    display: contents;
+  }
+  img{
+    /* width: 15px;
+    object-fit: contain; */
+  }
+  a{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    /* line-height: 100px; */
+  }
+  .submit{
+    /* margin-top: 10px; */
+    font-size: 25px;
+    
+  }
+  .thumbnail{
+    /* padding-top: 10px; */
+    width: 100px;
+    
+  }
+  img{
+    padding-top: 22px;
+    width: 250px;
+    /* margin: auto; */
+  
+  }
+
+
+
+
 /* LINE006 */
 .button_line006  {
+    text-align: center;
     position: relative;
-    display: flex;
+    display: block;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     margin: 0 auto;
     max-width: 220px;
     padding: 10px 25px;
@@ -251,6 +296,7 @@ p i{
 
 /* aタグ */
 a{
+    display: block;
     text-decoration: none;
     color:inherit;
 }
@@ -389,6 +435,9 @@ p i{
   }
   
   .bn36 {
+    display: flex;
+    width: 97px;
+    margin: 0 auto;
     border-color: #000000;
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
   }
@@ -401,10 +450,10 @@ p i{
   /* homeアイコン */
 
 
-img{
+/* img{
     width: 8%;
     margin: auto;
-}
+} */
 
 .homeicon{
     display: flex;
@@ -421,5 +470,5 @@ h3{
 
 
 .content{
-    margin-top: 8%;
+    margin-top: 6%;
 }

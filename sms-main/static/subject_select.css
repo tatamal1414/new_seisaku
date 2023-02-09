@@ -14,6 +14,47 @@ a:hover{
 
 
 
+header{
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #b9d9ff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  line-height: 100px;
+}
+h2{
+  /* padding-top: 9px; */
+  display: contents;
+}
+img{
+  /* width: 15px;
+  object-fit: contain; */
+}
+a{
+  text-decoration: none;
+  color: black;
+  /* line-height: 100px; */
+}
+.submit{
+  /* margin-top: 10px; */
+  
+}
+.thumbnail{
+  /* padding-top: 10px; */
+  width: 100px;
+  
+}
+img{
+  width: 250px;
+  margin: auto;
+
+}
+
+
+
+
 /* LINE006 */
 .button_line006  {
     position: relative;
@@ -114,11 +155,7 @@ h1{
 
 
 
-img{
-  width: 6%;
-  margin: auto;
 
-}
 
 .homeicon{
   display: flex;

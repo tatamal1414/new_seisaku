@@ -35,7 +35,7 @@ app = Flask(__name__)
 connection = psycopg2.connect(host='localhost',
                              user='postgres',
                              password='apple2224',
-                             database='testdb')
+                             database='test')
 # ログイン認証
 session = {"loggedin": None, "username": "", "user_id": ""}
 

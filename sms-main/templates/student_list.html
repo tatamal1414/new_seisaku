@@ -9,22 +9,28 @@
   <link href="/static/student_list.css" rel="stylesheet">
 </head>
 <body>
-  <form action="/display_select" method="POST" name="display_select">
+  <!-- <form action="/display_select" method="POST" name="display_select">
     <input type="hidden" name="subject" value="{{params.subject_name}}">
     <div class="contenta">
-      <!-- <a href="javascript:display_select.submit()" class="submit">戻る</a>  -->
+      <a href="javascript:display_select.submit()" class="submit">戻る</a> 
       <a href="/logout" class="submit">ログアウト</a>
     </div>
-  </form>
+  </form> -->
+
+  <header>
+    <a href="home" class="thumbnail"><img src="/static/home_img/homeicon2.png"></a>
+    <h2>{{params.subject_name}}の成績一覧</h2>
+    <a href="/logout" class="submit">ログアウト</a>
+</header>
         <div class="content">
           <div class="content2">
         
-              <header>
+              
 
                 
 
                 <!-- <a onclick="history.go('/display_select')" class="">戻る</a> -->
-                <h1 class="headline"><a name="subject">{{ params.subject_name }}の成績一覧</a></h1>
+                <!-- <h1 class="headline"><a name="subject">{{ params.subject_name }}の成績一覧</a></h1> -->
                 <h3 style="color: red;">{{ params.msg }}</h3>
                 <div class="flex">
                 <p class="button_line006"><a data-bs-toggle="modal" data-bs-target="#addtest" href="#addtest">
@@ -66,7 +72,7 @@
                         </form>
                         <p class="button_line006"><a data-bs-toggle="modal" data-bs-target="#edit_test_names">テストの名前を編集</a></p>
                       </div>
-              </header>
+              
             </div>
               
               <table>
@@ -177,11 +183,11 @@
                   </div>   
                 </form>    
                 </table>
-        <div class="tooltip1">
+        <!-- <div class="tooltip1">
           <a href="/home" class="homeicon">
             <img src="../static/home_img/home.png" alt="home">
           </a>
-        </div>
+        </div> -->
       </div>
 </body>
 

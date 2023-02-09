@@ -8,12 +8,17 @@
   <link rel="stylesheet" href="/static/student_register.css">
 </head>
 <body>
-  <div class="content2">
-    <!-- <a onclick="history.back()" class="submit">戻る</a> -->
+  <header>
+    <a href="home" class="thumbnail"><img src="/static/home_img/homeicon2.png"></a>
+    <h2>学生登録</h2>
     <a href="/logout" class="submit">ログアウト</a>
-  </div>
+  </header>
+  <!-- <div class="content2">
+    <a onclick="history.back()" class="submit">戻る</a>
+    <a href="/logout" class="submit">ログアウト</a>
+  </div> -->
   <div class="container">
-  <h1 class="headline">学生登録</h1>
+  <!-- <h1 class="headline">学生登録</h1> -->
   <p>{{ params.msg }}</p>
   <!-- <a onclick="history.back()" class="">戻る</a> -->
   
@@ -81,20 +86,21 @@
     <a href="javascript:register.submit()" class="bn3637 bn36">登録</a>
   </form>
 </div>
-
+<div class="csv">
 <h3>CSVファイルで学生登録</h3>
-<form action="/student_register_csv" method="POST" enctype="multipart/form-data" >
-  <div>
-    <input type="file" name="test">
-  </div>
-  <div>
-    <input type="submit" value="送信する">
-  </div>
-</form>
+  <form action="/student_register_csv" method="POST" enctype="multipart/form-data" >
+    <div>
+      <input type="file" name="test">
+    </div>
+    <div>
+      <a href="javascript:register.submit()" class="bn3637 bn36">送信する</a>
+    </div>
+  </form>
+</div>
 
 
-<a href="home" class="homeicon">
+<!-- <a href="home" class="homeicon">
   <img src="../static/home_img/home.png" alt="home">
-</a>
+</a> -->
 </body>
 </html>
