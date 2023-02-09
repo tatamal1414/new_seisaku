@@ -3,7 +3,7 @@
 }
 /* ------------------------------------------------ */
 header{
-    background-color: cadetblue;
+    background-color: #b9d9ff;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -119,5 +119,5 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: cadetblue;
+    background-color: #b9d9ff;
 }
